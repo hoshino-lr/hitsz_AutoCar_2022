@@ -3,28 +3,34 @@ CMAKE_MINIMUM_REQUIRED(VERSION 3.10)
 PROJECT(HITSZ-AUTOCAR)
 SET(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
-set(use_hk true)
+set(use_hk false)
+set(use_cuda false)
 add_compile_options(-O3)
 
 # OpenCV
+if(WIN32) #判断是否在win32上编译
+    set(OpenCV_DIR C:\\Users\\hoshino\\Documents\\GitHub\\opencv-4.x\\build\\install) #确定opencv库位置，如果已经加入系统环境变量就不需要
+elseif(UNIX)
+endif()
 find_package(OpenCV 4.5 REQUIRED)
-# link_directories(${OpenCV_LIBRARY_DIRS})
+link_directories(${OpenCV_LIBRARY_DIRS})
 
 # cuda
+if(use_cuda)
 find_package(CUDA REQUIRED)
 include_directories(/usr/local/cuda/include)
 link_directories(/usr/local/cuda/lib64)
+endif()
 
 #Include
 include_directories(${PROJECT_SOURCE_DIR}/Camera/include)
 include_directories(${PROJECT_SOURCE_DIR}/Armor/include)
 include_directories(${PROJECT_SOURCE_DIR}/Net/include)
 include_directories(${PROJECT_SOURCE_DIR}/Lidar/include)
-include_directories(${PROJECT_SOURCE_DIR}/Config/include)
+include_directories(${PROJECT_SOURCE_DIR}/Config)
 include_directories(${PROJECT_SOURCE_DIR}/Com/include)
 include_directories(${PROJECT_SOURCE_DIR}/Pos/include)
 include_directories(/opt/MVS/include)
-include_directories(../tiny-tensorrt)
 
 #Link
 link_directories(/opt/MVS/lib/64)
@@ -61,9 +67,10 @@ file (GLOB_RECURSE calfiles
 )
 
 
+
 add_executable(autocar main.cpp ${sourcefiles})
-add_executable(calibrate calibrate_get_imgs.cpp ${calfiles})
+#add_executable(calibrate calibrate_get_imgs.cpp ${calfiles})
 
 
-target_link_libraries(rmcv ${OpenCV_LIBS} -lglog -lpthread  libtinytrt.so nvinfer nvinfer_plugin nvparsers nvonnxparser)
-target_link_libraries(calibrate  ${OpenCV_LIBS} -lglog -lpthread)
+target_link_libraries(autocar ${OpenCV_LIBS} -lglog -lpthread ${OpenCV_LIBS})
+#target_link_libraries(calibrate  ${OpenCV_LIBS} -lglog -lpthread)

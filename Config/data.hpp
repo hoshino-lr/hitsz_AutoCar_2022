@@ -1,14 +1,15 @@
 /*
- * @Author: 李龙 
- * @Date: 2022-01-29 19:09:28 
+ * @Author: 李龙
+ * @Date: 2022-01-29 19:09:28
  * @Last Modified by: 李龙
- * @Last Modified time: 2022-02-03 13:07:51
+ * @Last Modified time: 2022-02-05 20:32:59
  */
 
 // 数据类型
 #ifndef CRH_2022_DATA_HPP_
 #define CRH_2022_DATA_HPP_
 #include <opencv2/opencv.hpp>
+#include <vector>
 namespace armor
 {
   struct Armor // 代表一个装甲板
@@ -34,12 +35,31 @@ namespace ml // machine learninge
 
 namespace mp
 {
-  struct MAP_POINT
+  typedef struct MAP_POINT
   {
+    MAP_POINT()
+    {
+      type_ = 0;
+    }
     int type_; // 0: 可移动点 1: 墙 2: 障碍物 4：移动障碍物 5：车
-    int cnt;
-  };
-  
+  } MP;
+
+  typedef struct SUB_POINT
+  {
+    SUB_POINT()
+    {
+      x = 0;
+      y = 0;
+      hit_cnt = 0;
+      confidence = 0;
+    }
+    int x;
+    int y;
+    int hit_cnt;
+    float confidence;
+  } SP;
+
+  typedef std::vector<SP> SM;
 }
 
 struct SENSOR_DATA_MSG
@@ -58,13 +78,13 @@ struct IMU_DATA_MSG
 };
 
 //机器人信息
-struct ROBOT_DATA
+typedef struct ROBOT_DATA
 {
   int color; //颜色
-  int id;    //id
+  int id;    // id
   int blood; //血量
   int power; //功率
-}
+} RB;
 
 //从电控接收到的信息
 struct RECEIVE_MSG

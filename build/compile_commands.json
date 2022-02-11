@@ -1,0 +1,72 @@
+[
+{
+  "directory": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/autocar.dir/includes_CXX.rsp  -std=c++14 -g -O3 -o CMakeFiles\\autocar.dir\\main.cpp.obj -c C:\\Users\\hoshino\\Documents\\GitHub\\hitsz_AutoCar_2022\\main.cpp",
+  "file": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/main.cpp"
+},
+{
+  "directory": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/autocar.dir/includes_CXX.rsp  -std=c++14 -g -O3 -o CMakeFiles\\autocar.dir\\Lidar\\src\\C3iroboticsLidar.cpp.obj -c C:\\Users\\hoshino\\Documents\\GitHub\\hitsz_AutoCar_2022\\Lidar\\src\\C3iroboticsLidar.cpp",
+  "file": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/Lidar/src/C3iroboticsLidar.cpp"
+},
+{
+  "directory": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/autocar.dir/includes_CXX.rsp  -std=c++14 -g -O3 -o CMakeFiles\\autocar.dir\\Lidar\\src\\CArcTime.cpp.obj -c C:\\Users\\hoshino\\Documents\\GitHub\\hitsz_AutoCar_2022\\Lidar\\src\\CArcTime.cpp",
+  "file": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/Lidar/src/CArcTime.cpp"
+},
+{
+  "directory": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/autocar.dir/includes_CXX.rsp  -std=c++14 -g -O3 -o CMakeFiles\\autocar.dir\\Lidar\\src\\CCountDown.cpp.obj -c C:\\Users\\hoshino\\Documents\\GitHub\\hitsz_AutoCar_2022\\Lidar\\src\\CCountDown.cpp",
+  "file": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/Lidar/src/CCountDown.cpp"
+},
+{
+  "directory": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/autocar.dir/includes_CXX.rsp  -std=c++14 -g -O3 -o CMakeFiles\\autocar.dir\\Lidar\\src\\CDeviceConnection.cpp.obj -c C:\\Users\\hoshino\\Documents\\GitHub\\hitsz_AutoCar_2022\\Lidar\\src\\CDeviceConnection.cpp",
+  "file": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/Lidar/src/CDeviceConnection.cpp"
+},
+{
+  "directory": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/autocar.dir/includes_CXX.rsp  -std=c++14 -g -O3 -o CMakeFiles\\autocar.dir\\Lidar\\src\\CLidarPacket.cpp.obj -c C:\\Users\\hoshino\\Documents\\GitHub\\hitsz_AutoCar_2022\\Lidar\\src\\CLidarPacket.cpp",
+  "file": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/Lidar/src/CLidarPacket.cpp"
+},
+{
+  "directory": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/autocar.dir/includes_CXX.rsp  -std=c++14 -g -O3 -o CMakeFiles\\autocar.dir\\Lidar\\src\\CLidarPacketReceiver.cpp.obj -c C:\\Users\\hoshino\\Documents\\GitHub\\hitsz_AutoCar_2022\\Lidar\\src\\CLidarPacketReceiver.cpp",
+  "file": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/Lidar/src/CLidarPacketReceiver.cpp"
+},
+{
+  "directory": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/autocar.dir/includes_CXX.rsp  -std=c++14 -g -O3 -o CMakeFiles\\autocar.dir\\Lidar\\src\\CLidarUnpacket.cpp.obj -c C:\\Users\\hoshino\\Documents\\GitHub\\hitsz_AutoCar_2022\\Lidar\\src\\CLidarUnpacket.cpp",
+  "file": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/Lidar/src/CLidarUnpacket.cpp"
+},
+{
+  "directory": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/autocar.dir/includes_CXX.rsp  -std=c++14 -g -O3 -o CMakeFiles\\autocar.dir\\Lidar\\src\\CSerialConnection.cpp.obj -c C:\\Users\\hoshino\\Documents\\GitHub\\hitsz_AutoCar_2022\\Lidar\\src\\CSerialConnection.cpp",
+  "file": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/Lidar/src/CSerialConnection.cpp"
+},
+{
+  "directory": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/autocar.dir/includes_CXX.rsp  -std=c++14 -g -O3 -o CMakeFiles\\autocar.dir\\Lidar\\src\\CSimulateSerial.cpp.obj -c C:\\Users\\hoshino\\Documents\\GitHub\\hitsz_AutoCar_2022\\Lidar\\src\\CSimulateSerial.cpp",
+  "file": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/Lidar/src/CSimulateSerial.cpp"
+},
+{
+  "directory": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/autocar.dir/includes_CXX.rsp  -std=c++14 -g -O3 -o CMakeFiles\\autocar.dir\\Lidar\\src\\CTime.cpp.obj -c C:\\Users\\hoshino\\Documents\\GitHub\\hitsz_AutoCar_2022\\Lidar\\src\\CTime.cpp",
+  "file": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/Lidar/src/CTime.cpp"
+},
+{
+  "directory": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/autocar.dir/includes_CXX.rsp  -std=c++14 -g -O3 -o CMakeFiles\\autocar.dir\\Pos\\src\\lidar.cpp.obj -c C:\\Users\\hoshino\\Documents\\GitHub\\hitsz_AutoCar_2022\\Pos\\src\\lidar.cpp",
+  "file": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/Pos/src/lidar.cpp"
+},
+{
+  "directory": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/autocar.dir/includes_CXX.rsp  -std=c++14 -g -O3 -o CMakeFiles\\autocar.dir\\Pos\\src\\map.cpp.obj -c C:\\Users\\hoshino\\Documents\\GitHub\\hitsz_AutoCar_2022\\Pos\\src\\map.cpp",
+  "file": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/Pos/src/map.cpp"
+},
+{
+  "directory": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/autocar.dir/includes_CXX.rsp  -std=c++14 -g -O3 -o CMakeFiles\\autocar.dir\\Pos\\src\\position.cpp.obj -c C:\\Users\\hoshino\\Documents\\GitHub\\hitsz_AutoCar_2022\\Pos\\src\\position.cpp",
+  "file": "C:/Users/hoshino/Documents/GitHub/hitsz_AutoCar_2022/Pos/src/position.cpp"
+}
+]
